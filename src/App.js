@@ -1,14 +1,10 @@
-import Navbar from './components/Navbar'; 
-import ImageSlider from './components/ImageSlider'; 
-import { SliderData } from './components/SliderData';
-import './App.css'
+import Home from './page/home';
 
 function App() {
     return (
-    <>
-    < Navbar />
-    < ImageSlider slides={SliderData}/> 
-    </>
+   <>
+         <Home />
+   </> 
     )
 }
 
