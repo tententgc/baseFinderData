@@ -1,5 +1,7 @@
+import Gallery from "../components/Image-Carousel"
+
 export default function Home(){ 
     return (
-        <h1>Home</h1> 
+        < Gallery />
     )
 }
