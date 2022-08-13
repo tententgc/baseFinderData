@@ -1,5 +1,8 @@
+import DataTableFilterDemo from "../components/dataTable"
 export default function Projects(){ 
     return (
-        <h1>Projects</h1> 
+    <>
+        <DataTableFilterDemo />
+    </>
     )
 }
